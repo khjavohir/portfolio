@@ -89,25 +89,25 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://github.com/khjavohir"
             >
               Github <FaGithub size={30} />
             </a>
           </li>
 
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#702e2e]">
-            <a
+            <Link smooth={500} to="contact"
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              
             >
               Email <HiOutlineMail size={30} />
-            </a>
+            </Link>
           </li>
 
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#3a95fd]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://t.me/rizzz_god"
             >
               Telegram <FaTelegram size={30} />
             </a>
