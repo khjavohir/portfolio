@@ -3,7 +3,7 @@ import CSS from "../assets/css.png";
 import Boostrap from "../assets/bootstrap.png";
 import JavaScript from "../assets/javascript.png";
 import ReactImg from "../assets/react.png";
-import Firebase from "../assets/firebase.png";
+import Next from "../assets/next.png";
 import GitHub from "../assets/github.png";
 import Tailwind from "../assets/tailwind.png";
 
@@ -45,6 +45,11 @@ const Skills = () => {
           </div>
 
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto pt-4" src={Next} alt="" />
+            <p className="my-4">NEXT JS</p>
+          </div>
+
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto pt-4" src={GitHub} alt="" />
             <p className="my-4">GitHub</p>
           </div>
@@ -52,11 +57,6 @@ const Skills = () => {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto pt-4" src={Tailwind} alt="" />
             <p className="my-4">TAILWIND</p>
-          </div>
-
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto pt-4" src={Firebase} alt="" />
-            <p className="my-4">FIREBASE</p>
           </div>
         </div>
       </div>
